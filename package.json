@@ -1,0 +1,35 @@
+{
+    "name": "x-707440-react-template",
+    "version": "1.0.0",
+    "description": "An app to develop React web app",
+    "license": "UNLICENSED",
+    "scripts": {
+        "build": "now-sdk build",
+        "deploy": "now-sdk install",
+        "transform": "now-sdk transform",
+        "types": "now-sdk dependencies"
+    },
+    "devDependencies": {
+        "@servicenow/sdk": "4.0.0",
+        "@servicenow/glide": "26.0.1",
+        "typescript": "5.8.2",
+        "@tanstack/react-query": "5.87.1",
+        "eslint": "8.50.0",
+        "@servicenow/eslint-plugin-sdk-app-plugin": "4.0.0",
+        "@servicenow/isomorphic-rollup": "1.2.1",
+        "@types/react": "19.x",
+        "@types/react-dom": "19.x",
+        "react": "19.x",
+        "react-dom": "19.x",
+        "react-router": "7.8.2",
+        "tailwindcss": "4.1.13",
+        "@tailwindcss/cli": "4.1.13",
+        "@tailwindcss/browser": "4.1.13",
+        "@radix-ui/react-slot": "1.2.3",
+        "class-variance-authority": "0.7.1",
+        "clsx": "2.1.1",
+        "tailwind-merge": "3.3.1",
+        "lucide-react": "0.543.0",
+        "tw-animate-css": "1.3.8"
+    }
+}
