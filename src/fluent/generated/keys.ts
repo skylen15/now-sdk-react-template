@@ -21,6 +21,10 @@ declare global {
                         table: 'sys_module'
                         id: '8a13f4d1b8c74751a7cd42fe9f2a0286'
                     }
+                    'styles/theme.css': {
+                        table: 'sys_ux_theme_asset'
+                        id: '8a673a7145e344f0abd41ae33d73e945'
+                    }
                     'theme.css': {
                         table: 'sys_ux_theme_asset'
                         id: 'e1b6ce8a409e40c5b2a456b89dd05635'
@@ -29,10 +33,12 @@ declare global {
                     'x_707440_react_app/assets/tailwind.browser': {
                         table: 'sys_ux_lib_asset'
                         id: '82ebc0856da643cc8af9a3a37937d095'
+                        deleted: true
                     }
                     'x_707440_react_app/assets/tailwind.browser.js.map': {
                         table: 'sys_ux_lib_asset'
                         id: '2d314dc7ea934735a9b53bc46755c6d9'
+                        deleted: true
                     }
                     'x_707440_react_app/main': {
                         table: 'sys_ux_lib_asset'

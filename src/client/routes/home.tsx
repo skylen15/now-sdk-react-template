@@ -1,6 +1,6 @@
+import { Button } from "primereact/button";
 import React from "react";
 import { useLoaderData } from "react-router";
-import { Button } from "../components/ui/button";
 
 declare global {
     interface Window {
@@ -28,6 +28,6 @@ export async function loadIncidents() {
 
 export function Home() {
     return <>
-        <Button onClick={() => console.log("Hello")}>Say Hello</Button>
+        <Button label="Click" />
     </>
 }

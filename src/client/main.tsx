@@ -3,10 +3,9 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import { RouterProvider } from "react-router/dom";
 
-// import "./theme.css";
-import "./styles/tailwind.css";
-
 import { router } from "./router";
+
+import "./styles/theme.css";
 
 const queryClient = new QueryClient({
     defaultOptions: {
